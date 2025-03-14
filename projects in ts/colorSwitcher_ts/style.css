@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+.colors {
+    display: flex;
+    gap: 10px;
+}
+
+.color1 {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.color2 {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.color3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.color4 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
